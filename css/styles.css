@@ -2,3 +2,10 @@
   height: 100px;
   margin: 10px;
 }
+
+.card {
+  background-color: #f8f9fa;
+  border-bottom: 4px solid #ccc;
+  margin: 20px 0;
+  padding: 5px;
+}
