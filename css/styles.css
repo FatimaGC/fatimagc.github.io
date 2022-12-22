@@ -1,16 +1,4 @@
-/* NAVIGATION STYLES */
-/* .main-nav {
-} */
-
-/* .nav {
-  display: flex;
-  list-style: none;
-  justify-content: space-around;
-} */
-
-.navbar-nav {
-  display: flex;
-}
 .profile-img {
   height: 100px;
+  margin: 10px;
 }
