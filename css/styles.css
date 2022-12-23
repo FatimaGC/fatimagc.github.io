@@ -36,3 +36,10 @@ footer {
 .social-container li {
   margin-right: 5px;
 }
+
+/* CONTACT PAGE STYLES */
+
+.contact-header {
+  margin: 30px;
+  text-align: center;
+}
