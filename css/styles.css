@@ -37,6 +37,10 @@ footer {
   margin-right: 5px;
 }
 
+.social-container li a {
+  color: #7a354d;
+}
+
 /* CONTACT PAGE STYLES */
 
 .main-header,
