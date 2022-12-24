@@ -94,4 +94,8 @@ footer {
   footer {
     margin-top: 100px;
   }
+
+  .navbar-nav {
+    align-items: flex-start;
+  }
 }
