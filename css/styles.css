@@ -39,6 +39,7 @@ footer {
 
 /* CONTACT PAGE STYLES */
 
+.main-header,
 .contact-header,
 .projects-header {
   margin: 30px;
@@ -57,6 +58,7 @@ footer {
   color: #6c757d;
 }
 
+.bio-content,
 .project-title,
 .project-description {
   padding: 10px;
