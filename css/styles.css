@@ -39,7 +39,8 @@ footer {
 
 /* CONTACT PAGE STYLES */
 
-.contact-header {
+.contact-header,
+.projects-header {
   margin: 30px;
   text-align: center;
 }
