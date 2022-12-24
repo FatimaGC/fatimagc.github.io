@@ -50,3 +50,23 @@ footer {
   margin: 0 auto;
   width: 150px;
 }
+
+/* PROJECTS PAGE STYLES */
+
+.project-title {
+  color: #6c757d;
+}
+
+.project-title,
+.project-description {
+  padding: 10px;
+  text-align: center;
+}
+
+.project-title a {
+  text-decoration: none;
+}
+
+.project-image {
+  max-width: 100%;
+}
