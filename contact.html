@@ -56,44 +56,38 @@
 
     <main>
       <div class="container">
-        <form action="">
+        <form onsubmit="sendEmail(); reset(); return false;">
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Name:</label
-            >
+            <label for="name" class="form-label">Name:</label>
             <input
               type="text"
               class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Your name here"
+              id="name"
+              placeholder="Your name"
               required
             />
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Email:</label
-            >
+            <label for="email" class="form-label">Email:</label>
             <input
               type="email"
               class="form-control"
-              id="exampleFormControlInput1"
+              id="email"
               placeholder="name@example.com"
               required
             />
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Message:</label
-            >
+            <label for="message" class="form-label">Message:</label>
             <textarea
               class="form-control"
-              id="exampleFormControlTextarea1"
+              id="message"
               rows="3"
               required
             ></textarea>
           </div>
-          <div>
-            <button class="btn btn-primary" type="submit">Submit</button>
+          <div class="btn-container">
+            <button class="btn btn-primary" type="submit">Send</button>
           </div>
         </form>
       </div>
@@ -103,5 +97,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>

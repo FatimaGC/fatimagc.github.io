@@ -43,3 +43,9 @@ footer {
   margin: 30px;
   text-align: center;
 }
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
